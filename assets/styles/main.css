@@ -1,0 +1,108 @@
+body {
+	background: url("../img/background-noise.png");
+}
+
+
+header {
+	height: 100px;
+	border-bottom: 7px solid #2ecc71;
+	margin-bottom: 50px;
+	color: #bdc3c7;
+	background-color: black;
+}
+
+header img {
+	height:100px;
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+	background-color: white;
+	border-radius: 50%;
+	border: 5px solid #2ecc71;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+header h3 {
+	font-family: 'Lily Script One', cursive;
+	font-size: 40px;
+	display: inline-block;
+	margin-right: 15px;
+	line-height: 70px;
+}
+
+header h6 {
+	line-height: 50px;
+	display: inline-block;
+}
+
+header .menu {
+	display: inline-block;
+	float: right;
+	line-height: 45px;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.menu p {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+}
+
+.menu a:link, a:visited, a:active{
+	color:#bdc3c7;
+	text-decoration: none;
+}
+
+.menu .active, a:hover {
+	color: #2ecc71;
+	text-decoration: none;
+}
+
+div.project {
+	width: 315px;
+	height:315px;
+	border-radius: 50%;
+	color: white;
+}
+
+div.project img {
+	display: block;
+	margin: auto;
+	opacity: 0.7;
+	max-width: 600px;
+	max-height: 600px;
+	width: 85%;
+	height:85%;
+	border-radius: 50%;
+	padding: 5px;
+	background: #bdc3c7;
+}
+
+div.project img:hover {
+	opacity: 1;
+	background: #2ecc71;
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 1000ms ease;
+	-ms-transition: all 1000ms ease;
+	-o-transition: all 1000ms ease;
+	transition: all 1000ms ease;
+}
+
+div#about {
+	display: none;
+	font-size: 12px;
+}
+
+footer {
+	background-color: black;
+	height: 75px;
+	color: #bdc3c7;
+	border-top: 7px solid #2ecc71;
+	text-align: right;
+	vertical-align: middle;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
