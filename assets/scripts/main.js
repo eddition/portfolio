@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	windowResize();
 	$(window).on('resize', windowResize);
-	$(".menu p").on("click", swapView);
+	$(".menu-item").on("click", swapView);
 
 });
 

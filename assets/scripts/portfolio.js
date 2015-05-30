@@ -1,7 +1,5 @@
 $(function(){
 
-  var about = "testing"
-
   //------------Models---------------------
   var Project = Backbone.Model.extend();
 
@@ -53,7 +51,7 @@ $(function(){
 
     initialize: function(){
       var self = this;
-      self.projects = $('#projects');
+      self.projects = $('#portfolio-container');
 
       portfolio.each(function(project){
         var projectView = new ProjectView({ model:project });

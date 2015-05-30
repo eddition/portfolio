@@ -32,6 +32,12 @@ $(function(){
 			company: "Dentium America"
 			, title: "Marketing Manager"
 			,  date: "Oct 11 - May 12" 
+		}),
+
+		new WorkModel({ 
+			company: "Avis Budget Group"
+			, title: "Revenue Analyst"
+			,  date: "Dec 10 - Oct 11" 
 		})
 
 		]);
@@ -42,15 +48,15 @@ $(function(){
 
 	var schoolCollection = new SchoolCollection([
 		new SchoolModel({
-			school: "Stony Brook University (B.S.)"
-			, date: "Sep 07 - Dec 10"
-			, major: "Finance / Renaissance Literature"
-		}),
-
-		new SchoolModel({
 			school: "General Assembly"
 			, date: "Aug 13 - Dec 13"
 			, major: "Web Development Immersive"
+		}),
+
+		new SchoolModel({
+			school: "Stony Brook University (B.S.)"
+			, date: "Sep 07 - Dec 10"
+			, major: "Finance / Renaissance Literature"
 		})
 
 		]);
@@ -61,7 +67,7 @@ $(function(){
 		className: "work",
 
 		template: _.template(
-			"<div class=col-sm-8>" +
+			"<div class=col-sm-7>" +
 			"<h5><%= company %></h5>" +
 			"<h6><%= title %></h6>" +
 			"</div>" +
@@ -101,7 +107,7 @@ $(function(){
 		className: "education",
 
 		template: _.template(
-			"<div class=col-sm-8>" +
+			"<div class='col-sm-7'>" +
 			"<h5><%= school %></h5>" +
 			"<h6><%= major %></h6>" +
 			"</div>" +
